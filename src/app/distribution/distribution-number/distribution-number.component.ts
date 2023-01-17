@@ -19,7 +19,8 @@ export class DistributionNumberComponent implements OnInit {
   setUpViz(): void {
     const div = this.el.nativeElement.querySelector('#number');
     const url =
-      'https://public.tableau.com/views/Consults_16063777713890/ContractDistibutions-number?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      // 'https://public.tableau.com/views/Consults_16063777713890/ContractDistibutions-number?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      'https://public.tableau.com/views/agric_fds/ContractDistibutions-number?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
 
     const options = {
       hideTabs: true,

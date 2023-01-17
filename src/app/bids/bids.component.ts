@@ -19,7 +19,8 @@ export class BidsComponent implements OnInit {
   setUpViz(): void {
     const div = this.el.nativeElement.querySelector('#bids');
     const url =
-      'https://public.tableau.com/views/acg_bids/AvBids?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      // 'https://public.tableau.com/views/acg_bids/AvBids?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      'https://public.tableau.com/views/acg_bids/AvBids?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link';
 
     const options = {
       hideTabs: true,

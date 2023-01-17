@@ -19,7 +19,8 @@ export class CompetitionComponent implements OnInit {
   setUpViz(): void {
     const div = this.el.nativeElement.querySelector('#competition');
     const url =
-      'https://public.tableau.com/views/Consults_16063777713890/OpenCompetition?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      // 'https://public.tableau.com/views/Consults_16063777713890/OpenCompetition?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      'https://public.tableau.com/views/agric_fds/OpenCompetition?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
 
     const options = {
       hideTabs: true,

@@ -19,7 +19,8 @@ export class DisclosureComponent implements OnInit {
   setUpViz(): void {
     const div = this.el.nativeElement.querySelector('#disclosure');
     const url =
-      'https://public.tableau.com/views/Consults_16063777713890/Disclosure?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      // 'https://public.tableau.com/views/Consults_16063777713890/Disclosure?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
+      'https://public.tableau.com/views/agric_fds/Disclosure?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link';
 
     const options = {
       hideTabs: true,

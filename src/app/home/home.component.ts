@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit{
   constructor(private el: ElementRef) {}
 
   ngOnInit(): void {
-    this.setUpViz();
+    // this.setUpViz();
   }
 
   setUpViz(): void {
